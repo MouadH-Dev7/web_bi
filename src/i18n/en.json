@@ -1,0 +1,203 @@
+{
+  "nav": {
+    "brand": "Mouadh Dev",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cta": "Let's collaborate",
+    "lang": "English"
+  },
+  "hero": {
+    "eyebrow": "Available for new challenges",
+    "title": "Full-Stack & Backend",
+    "title_span": "Developer.",
+    "subtitle": "I design distributed architectures, microservices, and multi-agent systems built to last.",
+    "cta_projects": "View my projects",
+    "cta_contact": "Contact me",
+    "scroll": "SCROLL TO EXPLORE"
+  },
+  "about": {
+    "kicker": "01 / ABOUT",
+    "title_1": "From complexity",
+    "title_span": "to clarity.",
+    "intro": "Passionate about backend development and systems running behind the scenes, I turn complex problems into robust digital products. My playground: distributed architectures, automation, and intelligent agents.",
+    "stats": {
+      "projects": "projects delivered",
+      "ecosystems": "ecosystems mastered",
+      "passion": "technical curiosity"
+    }
+  },
+  "skills": {
+    "kicker": "02 / EXPERTISE",
+    "title_1": "An uncompromising",
+    "title_span": "technical foundation.",
+    "categories": {
+      "backend": "Backend",
+      "data": "Databases",
+      "architecture": "Architecture",
+      "tools": "Tools"
+    }
+  },
+  "projects": {
+    "kicker": "03 / SELECTED WORKS",
+    "title_1": "Projects that",
+    "title_span": "resolve.",
+    "subtitle": "Each realization is a case study: context, architecture choices, and concrete impact.",
+    "view_project": "View Project",
+    "close_modal": "Close",
+    "view_code": "View Code",
+    "view_live": "Visit Website",
+    "key_features": "Key Features & Functionalities",
+    "tech_stack": "Technical Stack",
+    "results_impact": "Results & Impact",
+    "categories": {
+      "tous": "Show All",
+      "production": "Production",
+      "fullstack": "Full-Stack",
+      "microservices": "Microservices",
+      "desktop": "Desktop",
+      "research": "R&D"
+    },
+    "items": {
+      "real_estate": {
+        "title": "Real Estate Management & Sales System (PFE)",
+        "description": "Complete real estate ecosystem connecting APIs, web, desktop, and mobile in a single business flow.",
+        "badge": "PFE",
+        "details": "A comprehensive enterprise ecosystem designed to streamline property listings, client matching, and sales contract workflows. Features real-time state synchronization between mobile agents and central administrators.",
+        "features": [
+          "Real-time notification system using SignalR for instant message passing",
+          "Integrated offline syncing for field agents using SQLite and Flutter local cache",
+          "Advanced analytical dashboards with automated revenue projections in desktop client",
+          "Secure document hosting and digital signing APIs"
+        ]
+      },
+      "erp_pos": {
+        "title": "Bariket Restaurant Website & POS",
+        "description": "A modern, highly performant web application and POS system for Bariket Restaurant, optimized for instant food orders and queue monitoring.",
+        "badge": "Production",
+        "impact": "0.82% error rate · 50+ concurrent users",
+        "details": "A production-grade restaurant platform hosting a client website and a micro-POS management panel. Features a fast menus loading speed and an integrated ingredients inventory manager.",
+        "features": [
+          "Fully responsive consumer menu client with lightning-fast static delivery",
+          "High performance caching with Redis for order queue status",
+          "Interactive sales statistics dashboard and invoicing tools",
+          "Cloud integration with Cloudflare Workers for optimal global latency"
+        ]
+      },
+      "dzstock": {
+        "title": "DzStock ERP",
+        "description": "Stock ERP designed for complex business rules and reliable daily operations.",
+        "badge": "Desktop",
+        "impact": "17+ PL/pgSQL triggers · Automated VAT/TTC",
+        "details": "A reliable desktop enterprise solution built for stock management, suppliers accounting, and billing systems in compliance with regional tax calculations.",
+        "features": [
+          "Optimized index architectures supporting rapid inventory lookups on 100k+ SKUs",
+          "Advanced PL/pgSQL database triggers automation for auditing and double-entry bookkeeping",
+          "Interactive accounting reports generation (PDF/Excel exports)",
+          "Secure user privilege scopes using role-based access control (RBAC)"
+        ]
+      },
+      "microservices": {
+        "title": "Distributed Real Estate Platform",
+        "description": "Decoupled services for a secure, scalable, and ready-to-grow real estate platform.",
+        "badge": "Microservices",
+        "details": "A microservices architecture leveraging REST APIs, independent DB schemas per service, and unified authentication gateways for secure modular scaling.",
+        "features": [
+          "Service containerization and deployment pipelines powered by Docker",
+          "High reliability API gateway managing request routing and rate limiting",
+          "Distributed identity tracking using custom JSON Web Token scopes",
+          "Asynchronous inter-service communications using messaging events"
+        ]
+      },
+      "multi_agents": {
+        "title": "Multi-Agent Systems",
+        "description": "Coordination of autonomous agents for negotiation and distributed task resolution.",
+        "badge": "Master",
+        "details": "R&D simulation testing distributed system orchestration through autonomous smart agents negotiative bidding.",
+        "features": [
+          "Implements standard FIPA-ACL protocols over the JADE runtime",
+          "Distributed resource allocation utilizing the Contract Net protocol",
+          "Smart heuristic agents for dynamic price negotiation scenarios",
+          "Visual agent coordination tracking topology dashboard"
+        ]
+      },
+      "hospital": {
+        "title": "Hospital Management",
+        "description": "Business application structured around data reliability and operational pathways.",
+        "badge": "Desktop",
+        "details": "A desktop software suite managing patient record entries, consultation appointments, and doctor schedules securely.",
+        "features": [
+          "Medical database designed with third-normal form normalization schemas",
+          "Custom schedule planner tool with conflict detection rules",
+          "Audit logs logging patient history modifications",
+          "Encrypted database backup automation"
+        ]
+      },
+      "car_agency": {
+        "title": "Car Rental Agency",
+        "description": "Business management solution with a desktop interface oriented towards efficiency.",
+        "badge": "Desktop",
+        "details": "A management system optimizing vehicle bookings, rental contracts, and fleet maintenance planning.",
+        "features": [
+          "Interactive booking calendar tracking car status",
+          "Dynamic contract pricing based on booking parameters",
+          "Fleet checkup reminders and records dashboard",
+          "Customer billing and history tracing"
+        ]
+      },
+      "bel_djazair": {
+        "title": "Bel Djazair",
+        "description": "Modern, responsive, and editorial web experience for tourist discovery.",
+        "badge": "Web",
+        "details": "A beautiful web application showcasing natural sites, traditional Algerian arts, and itineraries with rich visuals.",
+        "features": [
+          "Highly performant visual layout with responsive Tailwind utility patterns",
+          "Dynamic destination discovery mapping and route routing",
+          "Lightweight responsive asset serving optimized for mobile devices",
+          "Dynamic user reviews and stars feedback system"
+        ]
+      }
+    }
+  },
+  "process": {
+    "kicker": "04 / APPROACH",
+    "title_1": "Precision at",
+    "title_span": "every step.",
+    "subtitle": "A pragmatic method that keeps the product, technology, and quality aligned.",
+    "steps": {
+      "step1": {
+        "title": "Analysis",
+        "text": "Understand business stakes, workflows, and constraints."
+      },
+      "step2": {
+        "title": "Architecture",
+        "text": "Choose simple, distributed, and sustainable foundations."
+      },
+      "step3": {
+        "title": "Development",
+        "text": "Build through iterations with clear and clean interfaces."
+      },
+      "step4": {
+        "title": "Testing",
+        "text": "Secure quality, edge cases, and high performance."
+      },
+      "step5": {
+        "title": "Deployment",
+        "text": "Deliver observable, reliable, and maintainable systems."
+      }
+    }
+  },
+  "contact": {
+    "kicker": "05 / CONTACT",
+    "title_1": "Let's discuss",
+    "title_span": "your project.",
+    "subtitle": "Available to discuss a product, an architecture, or a new opportunity. Get in touch directly.",
+    "send_email": "Send Email",
+    "github_btn": "GitHub Profile",
+    "linkedin_btn": "LinkedIn Profile"
+  },
+  "footer": {
+    "note": "Designed with intent",
+    "top": "Back to top ↑"
+  }
+}
