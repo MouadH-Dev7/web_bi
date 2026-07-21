@@ -607,7 +607,7 @@ function App() {
                     </div>
                   )}
                   <div className="tags">
-                    {p.stack.map(t => <span key={t}>{t}</span>)}
+                    {p.stack.map(tag => <span key={tag}>{tag}</span>)}
                   </div>
                 </div>
               </TiltCard>

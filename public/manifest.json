@@ -1,0 +1,16 @@
+{
+  "name": "Mouadh Dev - Developer Portfolio",
+  "short_name": "Mouadh Dev",
+  "description": "Full-Stack & Backend Developer Portfolio - Distributed architectures, microservices, and multi-agent systems.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#818cf8",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
