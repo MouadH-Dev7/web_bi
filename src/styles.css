@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&family=Cairo:wght@400;500;600;700&display=swap');
+/* Fonts loaded locally */
 @import "tailwindcss";
 
 :root {
@@ -802,42 +802,6 @@ h1 span, h2 span {
   font-size: clamp(16px, 1.8vw, 19px);
   margin-bottom: 40px;
   position: relative;
-}
-
-.contact-actions {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  width: 100%;
-  position: relative;
-}
-
-.contact-socials-grid {
-  display: flex;
-  gap: 16px;
-  margin-top: 24px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.contact-socials-grid a {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  font-size: 13px;
-  color: var(--muted);
-  padding: 10px 20px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  transition: all 0.25s ease;
-  background: var(--bg);
-}
-
-.contact-socials-grid a:hover {
-  color: var(--accent);
-  border-color: var(--accent);
-  background: var(--surface2);
 }
 
 /* Detail Modal Styles */

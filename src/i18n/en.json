@@ -1,10 +1,10 @@
 {
   "nav": {
-    "brand": "Mouadh Dev",
+    "brand": "DevStudio",
     "about": "About",
     "projects": "Projects",
-    "contact": "Contact",
-    "cta": "Let's collaborate",
+    "contact": "Availability",
+    "cta": "Learn more",
     "lang": "English"
   },
   "hero": {
@@ -13,7 +13,7 @@
     "title_span": "Developer.",
     "subtitle": "I design distributed architectures, microservices, and multi-agent systems built to last.",
     "cta_projects": "View my projects",
-    "cta_contact": "Contact me",
+    "cta_contact": "Get started",
     "scroll": "SCROLL TO EXPLORE"
   },
   "about": {
@@ -45,8 +45,6 @@
     "subtitle": "Each realization is a case study: context, architecture choices, and concrete impact.",
     "view_project": "View Project",
     "close_modal": "Close",
-    "view_code": "View Code",
-    "view_live": "Visit Website",
     "key_features": "Key Features & Functionalities",
     "tech_stack": "Technical Stack",
     "results_impact": "Results & Impact",
@@ -188,13 +186,10 @@
     }
   },
   "contact": {
-    "kicker": "05 / CONTACT",
+    "kicker": "05 / AVAILABILITY",
     "title_1": "Let's discuss",
     "title_span": "your project.",
-    "subtitle": "Available to discuss a product, an architecture, or a new opportunity. Get in touch directly.",
-    "send_email": "Send Email",
-    "github_btn": "GitHub Profile",
-    "linkedin_btn": "LinkedIn Profile"
+    "subtitle": "Available to discuss a product, an architecture, or a new opportunity."
   },
   "footer": {
     "note": "Designed with intent",
